@@ -31,13 +31,13 @@ Two external APIs are used to obtain starting country's neighbors and exchange r
 If given neighbors exchange is unknown, input currency will be used in calculating budget in local currency.
 
 #### Security
-API is secured with oAuth2 and uses Google as identity provider.
+API is secured with OAuth2 and uses Google as identity provider.
 Unfortunately there isn't any custom login form yet, so pretty much all process is handled by Google.
 
 #### Setup
 To use the application, following parameters are needed:
-- `spring.security.oauth2.client.registration.google.client-id=`Google oAuth2 client id
-- `spring.security.oauth2.client.registration.google.client-secret=`Google oAuth2 client secret
+- `spring.security.oauth2.client.registration.google.client-id=`Google OAuth2 client id
+- `spring.security.oauth2.client.registration.google.client-secret=`Google OAuth2 client secret
 - `rapidapi.key=`Rapid API client key
 
 After that you're good to go!
