@@ -5,10 +5,10 @@ Calculate how many rounds of visits you can do with given budget.
 #### GET /budget?startingCountry=&currency=&budgetPerCountry=&totalBudget=
 
 ##### Parameters
-`startingCountry: String (required)`: ISO (2 or 3 char) code of starting country
-`currency: String (required)`: ISO code of currency of budget
-`budgetPerCountry: int (required)`: Budget planned to be spend for every neighbor
-`totalBudget: int (required)`: Total planned budget
+- `startingCountry: String (required)`: ISO (2 or 3 char) code of starting country
+- `currency: String (required)`: ISO code of currency of budget
+- `budgetPerCountry: int (required)`: Budget planned to be spend for every neighbor
+- `totalBudget: int (required)`: Total planned budget
 
 This API can be used to calculate how many neighbor tours can be done given budget.
 
@@ -36,9 +36,9 @@ Unfortunately there isn't any custom login form yet, so pretty much all process 
 
 #### Setup
 To use the application, following parameters are needed:
-- spring.security.oauth2.client.registration.google.client-id=Google oAuth2 client id
-- spring.security.oauth2.client.registration.google.client-secret=Google oAuth2 client secret
-- rapidapi.key=Rapid API client key
+- `spring.security.oauth2.client.registration.google.client-id=`Google oAuth2 client id
+- `spring.security.oauth2.client.registration.google.client-secret=`Google oAuth2 client secret
+- `rapidapi.key=`Rapid API client key
 
 After that you're good to go!
 
